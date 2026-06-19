@@ -1,0 +1,13 @@
+name = "Project Red - Illumination"
+filename = "ProjectRed-1.7.10-4.7.0pre12.95-Lighting.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "fe990319d34d0eba33b589470b57e9ae2773eaff"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2280733
+project-id = 229046

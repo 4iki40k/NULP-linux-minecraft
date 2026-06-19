@@ -1,0 +1,13 @@
+name = "NotEnoughItems Unofficial 1.7.10"
+filename = "NotEnoughItems-2.8.104-GTNH.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "25cf6543480fccbb916f4a0801dd56add6bed155"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8256364
+project-id = 358228

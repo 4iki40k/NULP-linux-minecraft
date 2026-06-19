@@ -1,0 +1,13 @@
+name = "NULP Linux Minecraft"
+author = "Kaspiy"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "6f0cc83d9097eca6b0b4115d797a9720b6b7af0938c78f9fb07b3836839365a1"
+
+[versions]
+forge = "10.13.4.1614"
+minecraft = "1.7.10"

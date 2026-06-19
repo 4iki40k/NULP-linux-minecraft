@@ -1,0 +1,195 @@
+hash-format = "sha256"
+
+[[files]]
+file = "config/GalaxySpace/core.conf"
+hash = "3582f0bc25bf9d45a49f8fb817b90796c7efdc011b7a987c5dd3bc0c0e0e188f"
+
+[[files]]
+file = "mods/applied-energistics-2.pw.toml"
+hash = "a348e88e11670e8ff2c72667faada73afef3a38280ce388a0039ae900fa01c48"
+metafile = true
+
+[[files]]
+file = "mods/armorstatushud.pw.toml"
+hash = "22c06261b4adfb44789c731935ee3c68f9010a79f55e72f8afdb996b5e74bf8d"
+metafile = true
+
+[[files]]
+file = "mods/betterfps.pw.toml"
+hash = "14fa4fac8d12ca6bef0104a0666256dc8c24b7693672d6be4e31c4d543c26007"
+metafile = true
+
+[[files]]
+file = "mods/bspkrscore.pw.toml"
+hash = "4f817806167f7b13e933b98928a698b9db0a8337af286d03c98ea13a8662a7b8"
+metafile = true
+
+[[files]]
+file = "mods/buildcraft.pw.toml"
+hash = "28825657e6a5260933662ff7e9e6cf81e562dc630a382fea77b23839556897e8"
+metafile = true
+
+[[files]]
+file = "mods/codechickencore-unofficial.pw.toml"
+hash = "d9d106128976c5f9972ae5354ede9a3e94368d0c488be6ea6a4ca2c4d4674daa"
+metafile = true
+
+[[files]]
+file = "mods/computercraft.pw.toml"
+hash = "a6d69db5937964e1b895382deb25b9dcd500cf48e78debf3a5b279556a6d7f24"
+metafile = true
+
+[[files]]
+file = "mods/dynmapforge.pw.toml"
+hash = "cf393445e602f2fb79070090a573a5c750ddf056e6bccfdf0f5e0dcf59465ce4"
+metafile = true
+
+[[files]]
+file = "mods/fastcraft.pw.toml"
+hash = "422af561be79850d7b301261b133bfc8ddcf7eab4c9d2e3934ded3f6fa72bf58"
+metafile = true
+
+[[files]]
+file = "mods/foamfix-optimization-mod.pw.toml"
+hash = "9c562e68ea529e4f835b9af28eda92fd88e65d7174d24c13bcbce162c49e9fd8"
+metafile = true
+
+[[files]]
+file = "mods/forestry.pw.toml"
+hash = "e2a1810cc0353e445c9e210f82f355e49f9d440aec1165b94e1e0248f3b322da"
+metafile = true
+
+[[files]]
+file = "mods/forge-multi-part.pw.toml"
+hash = "9681e0415a681994c0e6455828160ac82395fb48c1ccec3a1c5ff92af93c1be4"
+metafile = true
+
+[[files]]
+file = "mods/forge-relocation-fmp-plugin.pw.toml"
+hash = "77bb5648462430529e91ad93b0f9924b4161d9cd9bcc0d29568d63186915d2bf"
+metafile = true
+
+[[files]]
+file = "mods/forge-relocation.pw.toml"
+hash = "a961f4745299a1b16ba7ea3d697c704b2fb1170bd4507dd56f646aafade7afa2"
+metafile = true
+
+[[files]]
+file = "mods/galacticraft-legacy.pw.toml"
+hash = "d9f57ebfb2375fae145300f8360810f3d2429063bdbacb3f52c17dc17e07c9ef"
+metafile = true
+
+[[files]]
+file = "mods/galaxy-space-addon-for-galacticraft.pw.toml"
+hash = "80e31408f9b3270e5d375274a16b0fc53abdd51eadeaf16f49d7219364e9e4e4"
+metafile = true
+
+[[files]]
+file = "mods/industrial-craft.pw.toml"
+hash = "36eaa1e528a80689fe868f86c4333b7d267fb85c3d429696f0c3f9a6fb90b9b6"
+metafile = true
+
+[[files]]
+file = "mods/inventory-tweaks.pw.toml"
+hash = "c4230a555dd028581640c08b17340f6cc0139120512d2ae48d7ad9292ddd0289"
+metafile = true
+
+[[files]]
+file = "mods/iron-chests.pw.toml"
+hash = "9fdb47ec551d7019502d5c94dee80b3f45361cf2df6070fe93476513d1f1cefe"
+metafile = true
+
+[[files]]
+file = "mods/journeymap.pw.toml"
+hash = "5516f58d5abe2068e3f34e78629a0125333edc59b8ebe6d4e541fbb5756fea40"
+metafile = true
+
+[[files]]
+file = "mods/mouse-tweaks.pw.toml"
+hash = "249a426c0e7b86b0fb22be99c328e2db9ece689561018257b3fa6f03927defca"
+metafile = true
+
+[[files]]
+file = "mods/mrtjpcore.pw.toml"
+hash = "365d0ae319b5bfff4b50ab29b3a8590a9203aebd4ead94f7344e18c4337ae886"
+metafile = true
+
+[[files]]
+file = "mods/notenoughitems-gtnh.pw.toml"
+hash = "9513d53245a25739b391883cc5edb06ffc147ce869c9f9dc5ae73ca1d15d9092"
+metafile = true
+
+[[files]]
+file = "mods/nuclear-control-2.pw.toml"
+hash = "5d8e894d7983467b2727d1b3be2c4bb24d8b0380f986ae9d8b568399a3ad9676"
+metafile = true
+
+[[files]]
+file = "mods/openblocks.pw.toml"
+hash = "295dbebf441719598e4bccdb6f0c23cf34e1dc94464f1517e0e1007c24030c5e"
+metafile = true
+
+[[files]]
+file = "mods/opencomputers.pw.toml"
+hash = "3de18cfce080fd22e55612481f53b23fbead2f4f23a84b3080c10efedd041d6f"
+metafile = true
+
+[[files]]
+file = "mods/openmodslib.pw.toml"
+hash = "88228e57a4fa45d05005fc05df0902ae603f70b348557deb2a2bea9e3549b74d"
+metafile = true
+
+[[files]]
+file = "mods/project-red-core.pw.toml"
+hash = "e2c2abf9b9bb95ef5cf4f7c1a82d270c407657509831543f07e67eb3ac833316"
+metafile = true
+
+[[files]]
+file = "mods/project-red-expansion.pw.toml"
+hash = "bdc4bacc7fe9a77f7ce68c8d5f51c90d6071a28aefa2a8291f678e9cb005164c"
+metafile = true
+
+[[files]]
+file = "mods/project-red-exploration.pw.toml"
+hash = "d164fd75445b5347e0a8b6adf8e1194da45db884768f5093db0383e0a2536077"
+metafile = true
+
+[[files]]
+file = "mods/project-red-fabrication.pw.toml"
+hash = "8a4d94a0998498240d5d7a082cb286dec3a95d888e7ec4348862af5d27261d6c"
+metafile = true
+
+[[files]]
+file = "mods/project-red-illumination.pw.toml"
+hash = "04fd6d7217ed863f8cea08283babf5e12ab68bb8ac23697d02331e602eb11ee5"
+metafile = true
+
+[[files]]
+file = "mods/project-red-integration.pw.toml"
+hash = "7b9ecd33cd38232420ab71684a943538c8fb04aee92f4fe20d6878d749eaf61b"
+metafile = true
+
+[[files]]
+file = "mods/railcraft.pw.toml"
+hash = "5614fb3ab583f05339d85c124289c167ee3f7b761fed208a30fc7e8a3d26441a"
+metafile = true
+
+[[files]]
+file = "mods/treecapitator.pw.toml"
+hash = "548becfe83371f2af2a3eb0918ac4f8a19e82a3f16c316ed11382b6caa807440"
+metafile = true
+
+[[files]]
+file = "mods/unidict.pw.toml"
+hash = "3bc49fc971a2ed20c8379c091f46c1dd5c2daf84fb460f1a071eb05cebcdf81f"
+metafile = true
+
+[[files]]
+file = "mods/unimixins.pw.toml"
+hash = "204c32630a7e04731893128d323d9eba91dc4e74526c39f70d5c0c87f474ee3b"
+metafile = true
+
+[[files]]
+file = "mods/waila.pw.toml"
+hash = "1ce389a8d9488dd7d37490c1498d10412b7430b18cc0faa28f47afc9cf896b57"
+metafile = true

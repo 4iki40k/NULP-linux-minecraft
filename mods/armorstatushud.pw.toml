@@ -1,0 +1,13 @@
+name = "ArmorStatusHUD"
+filename = "[1.7.10]ArmorStatusHUD-client-1.28.jar"
+side = "client"
+
+[download]
+hash-format = "sha1"
+hash = "591212011b20ae3bbac8eec087ca443ba55cd895"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2218859
+project-id = 225564

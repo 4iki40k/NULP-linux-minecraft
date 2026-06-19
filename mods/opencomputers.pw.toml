@@ -1,0 +1,13 @@
+name = "OpenComputers"
+filename = "OpenComputers-MC1.7.10-1.8.9a+a430047-universal.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "7d0e1df66fa469fc0d51571e95b89fa1d1e7797d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6608364
+project-id = 223008

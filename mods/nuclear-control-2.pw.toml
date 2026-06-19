@@ -1,0 +1,13 @@
+name = "Nuclear Control 2"
+filename = "IC2NuclearControl-2.4.5a.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "2abfcc03e4e4b5f04918a77515ffb4936d437321"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3802063
+project-id = 236813
