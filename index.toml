@@ -15,6 +15,11 @@ hash = "9681e0415a681994c0e6455828160ac82395fb48c1ccec3a1c5ff92af93c1be4"
 metafile = true
 
 [[files]]
+file = "mods/angelica.pw.toml"
+hash = "4795a566900ff079ef1507353ff9d86f3eb131fb00d3da62b1fa468f56c5c0a8"
+metafile = true
+
+[[files]]
 file = "mods/applied-energistics-2.pw.toml"
 hash = "a348e88e11670e8ff2c72667faada73afef3a38280ce388a0039ae900fa01c48"
 metafile = true
@@ -82,6 +87,11 @@ metafile = true
 [[files]]
 file = "mods/galaxy-space-addon-for-galacticraft.pw.toml"
 hash = "80e31408f9b3270e5d375274a16b0fc53abdd51eadeaf16f49d7219364e9e4e4"
+metafile = true
+
+[[files]]
+file = "mods/gtnhlib.pw.toml"
+hash = "48b7bae38186715b4dc9af1ea2bcc64b06d81f30fef0bf8e36e7b7c5e8f038a6"
 metafile = true
 
 [[files]]
