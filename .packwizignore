@@ -2,3 +2,5 @@
 .gitignore
 server-setup.sh
 README.md
+test/
+test.zip
