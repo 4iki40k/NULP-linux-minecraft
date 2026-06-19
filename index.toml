@@ -30,11 +30,6 @@ hash = "22c06261b4adfb44789c731935ee3c68f9010a79f55e72f8afdb996b5e74bf8d"
 metafile = true
 
 [[files]]
-file = "mods/betterfps.pw.toml"
-hash = "14fa4fac8d12ca6bef0104a0666256dc8c24b7693672d6be4e31c4d543c26007"
-metafile = true
-
-[[files]]
 file = "mods/buildcraft.pw.toml"
 hash = "28825657e6a5260933662ff7e9e6cf81e562dc630a382fea77b23839556897e8"
 metafile = true
@@ -52,16 +47,6 @@ metafile = true
 [[files]]
 file = "mods/dynmapforge.pw.toml"
 hash = "cf393445e602f2fb79070090a573a5c750ddf056e6bccfdf0f5e0dcf59465ce4"
-metafile = true
-
-[[files]]
-file = "mods/fastcraft.pw.toml"
-hash = "422af561be79850d7b301261b133bfc8ddcf7eab4c9d2e3934ded3f6fa72bf58"
-metafile = true
-
-[[files]]
-file = "mods/foamfix-optimization-mod.pw.toml"
-hash = "9c562e68ea529e4f835b9af28eda92fd88e65d7174d24c13bcbce162c49e9fd8"
 metafile = true
 
 [[files]]
@@ -182,6 +167,11 @@ metafile = true
 [[files]]
 file = "mods/railcraft.pw.toml"
 hash = "5614fb3ab583f05339d85c124289c167ee3f7b761fed208a30fc7e8a3d26441a"
+metafile = true
+
+[[files]]
+file = "mods/smooth-font.pw.toml"
+hash = "317f48d5b1c4ec7cb0e949d7fa54eb0df8f13a5b11b0134524f29f6b272f123c"
 metafile = true
 
 [[files]]
