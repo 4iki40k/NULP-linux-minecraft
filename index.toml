@@ -21,6 +21,14 @@ file = "fontfiles/Minecraft 1.1.ttf"
 hash = "702eb1c74b7bb484b8d40d4ecdcebb8b7021e5eebed3c8cf669464e9d8702c31"
 
 [[files]]
+file = "journeymap/config/5.2/journeymap.minimap.config"
+hash = "fc79e7c56e9520cd567cd338483b0755e87b580784b079e8349840c4c003ddec"
+
+[[files]]
+file = "journeymap/config/5.2/journeymap.minimap2.config"
+hash = "7b97875c6acd973b5bf2dfe603f689fcb3bfb6bf2dea5b6a5a4691be2a5d08c7"
+
+[[files]]
 file = "mods/1.7.10/bspkrscore.pw.toml"
 hash = "4f817806167f7b13e933b98928a698b9db0a8337af286d03c98ea13a8662a7b8"
 metafile = true
