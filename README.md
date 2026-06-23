@@ -1,4 +1,4 @@
-# NULP-linux-minecraft
+# Galaxy-1.7.10-minecraft
 ### To setup and start server use server-setup.sh
 Requires wget and java-8-openjdk
 ``` bash
