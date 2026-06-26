@@ -93,6 +93,16 @@ hash = "80e31408f9b3270e5d375274a16b0fc53abdd51eadeaf16f49d7219364e9e4e4"
 metafile = true
 
 [[files]]
+file = "mods/gtnhlib.pw.toml"
+hash = "af6d156f0c54f63faafac7672d1e7df723e777dd7f22d791a9fe0f22807a654e"
+metafile = true
+
+[[files]]
+file = "mods/hodgepodge.pw.toml"
+hash = "70bf62d84b9f68459c9ec1a127cba7ff3304204cc125aa04017771f4996db1f9"
+metafile = true
+
+[[files]]
 file = "mods/industrial-craft.pw.toml"
 hash = "36eaa1e528a80689fe868f86c4333b7d267fb85c3d429696f0c3f9a6fb90b9b6"
 metafile = true
