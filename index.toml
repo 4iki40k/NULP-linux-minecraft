@@ -1,17 +1,20 @@
 hash-format = "sha256"
 
 [[files]]
+file = "README.md"
+hash = "7c9263cd546b009686e65672dd31d357773b32ef2f3583041d8485a3448aa7a4"
+
+[[files]]
+file = "config/AppliedEnergistics2/CustomRecipes.cfg"
+hash = "07363785d748d54d2282a73202f6be2867b22ea94985dbaff889fc0ba7d8d60b"
+
+[[files]]
 file = "config/GalaxySpace/core.conf"
-hash = "3582f0bc25bf9d45a49f8fb817b90796c7efdc011b7a987c5dd3bc0c0e0e188f"
+hash = "b660fce3ba9a982ad00dd4ec56c6008d8b96e38310a967f67f91ba4f4a878c88"
 
 [[files]]
 file = "mods/1.7.10/bspkrscore.pw.toml"
 hash = "4f817806167f7b13e933b98928a698b9db0a8337af286d03c98ea13a8662a7b8"
-metafile = true
-
-[[files]]
-file = "mods/1.7.10/forge-multi-part.pw.toml"
-hash = "9681e0415a681994c0e6455828160ac82395fb48c1ccec3a1c5ff92af93c1be4"
 metafile = true
 
 [[files]]
@@ -65,13 +68,18 @@ hash = "e2a1810cc0353e445c9e210f82f355e49f9d440aec1165b94e1e0248f3b322da"
 metafile = true
 
 [[files]]
+file = "mods/forge-multipart.pw.toml"
+hash = "56d73eac1301869988225c38489562c8434fc1d6baffbccd4e284139613c5647"
+metafile = true
+
+[[files]]
 file = "mods/forge-relocation-fmp-plugin.pw.toml"
-hash = "77bb5648462430529e91ad93b0f9924b4161d9cd9bcc0d29568d63186915d2bf"
+hash = "7694aaf39a2e0386968a5d7b53cabe3d8126869cfd6ec622da1aa1f9f51abcb4"
 metafile = true
 
 [[files]]
 file = "mods/forge-relocation.pw.toml"
-hash = "a961f4745299a1b16ba7ea3d697c704b2fb1170bd4507dd56f646aafade7afa2"
+hash = "8efbbb1a2c3fd9d16a20ec0f7f4f6d9b32eb6b42df04398cb53b72995ad3c2fa"
 metafile = true
 
 [[files]]
@@ -198,3 +206,7 @@ metafile = true
 file = "mods/waila.pw.toml"
 hash = "1ce389a8d9488dd7d37490c1498d10412b7430b18cc0faa28f47afc9cf896b57"
 metafile = true
+
+[[files]]
+file = "run.sh"
+hash = "476574f25a12add9161ed5b336df17ce400c40e32c3da6dd867db98d01278216"
