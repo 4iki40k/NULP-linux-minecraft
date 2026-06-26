@@ -1,3 +1,7 @@
-NULP Linux Minecraft-1.0.0-multimc-exported.zip
-test/
-test.zip
+.env
+config.yml
+*jar
+*test*
+*.swp
+*~
+*zip

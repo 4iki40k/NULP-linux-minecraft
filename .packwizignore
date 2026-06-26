@@ -1,6 +1,10 @@
-.git/
-.gitignore
-server-setup.sh
-README.md
-test/
-test.zip
+.*
+*.secret
+ci
+*.yml
+deploy*
+*setup*
+packwiz-installer-bootstrap.jar
+*.zip
+*test*
+server-plugins

@@ -1,0 +1,12 @@
+name: TelegramBridge
+main: com.example.tgbridge.TelegramBridge
+version: 1.0.0
+author: claude
+description: Two-way Minecraft <-> Telegram chat sync.
+commands:
+  tg:
+    description: TelegramBridge admin (reload/status)
+    usage: /tg reload
+  claude:
+    description: Broadcast a message from Claude to BOTH game and Telegram in one call
+    usage: /claude <message>

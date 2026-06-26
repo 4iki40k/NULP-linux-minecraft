@@ -1,13 +1,8 @@
-name = "Forge Relocation"
-filename = "ForgeRelocation-0.0.1.4-universal.jar"
+name = "ForgeRelocation"
+filename = "ForgeRelocation-0.3.4.jar"
 side = "both"
 
 [download]
+url = "https://github.com/GTNewHorizons/ForgeRelocation/releases/download/0.3.4/ForgeRelocation-0.3.4.jar"
 hash-format = "sha1"
-hash = "d244ca0d9d0f6d1b9cc68a5aa10779fa51b168c8"
-mode = "metadata:curseforge"
-
-[update]
-[update.curseforge]
-file-id = 2249874
-project-id = 232075
+hash = "70d0885fda72ae609177718b010ab190d9ac4556"

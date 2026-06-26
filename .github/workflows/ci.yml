@@ -1,0 +1,82 @@
+name: NULP CI
+
+# Two cheap checks on every push/PR:
+#   1. pack-validate — the packwiz pack still resolves and every mod download URL is alive (the
+#      original reason this project exists: a dead mod link = the server won't start).
+#   2. crucible-check — the LATEST Crucible release is fetchable and is a valid server jar, set up
+#      on GraalVM 21 (the runtime we target for the modern-Java server).
+
+on:
+  push:
+    branches: ["**"]
+  pull_request:
+  workflow_dispatch:
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  pack-validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install packwiz
+        run: go install github.com/packwiz/packwiz@latest
+      - name: Refresh — fail if the index is stale
+        run: |
+          export PATH="$HOME/go/bin:$PATH"
+          packwiz refresh
+          git diff --exit-code -- index.toml *.toml mods || {
+            echo "::error::pack index is stale — run 'packwiz refresh' and commit"; exit 1; }
+      - name: Every mod download URL is alive
+        run: |
+          fail=0
+          for f in $(grep -rl 'url *= *"http' mods 2>/dev/null); do
+            url=$(grep -oE 'url *= *"[^"]+"' "$f" | head -1 | sed -E 's/.*"(.*)"/\1/')
+            [ -z "$url" ] && continue
+            code=$(curl -s -o /dev/null -w '%{http_code}' -I -L --max-time 25 "$url" || echo 000)
+            [ "$code" = "200" ] || { echo "::error::dead mod URL ($code): $f -> $url"; fail=1; }
+          done
+          exit $fail
+
+  crucible-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: graalvm/setup-graalvm@v1
+        with:
+          java-version: '21'
+          distribution: 'graalvm-community'
+      - name: Fetch the latest Crucible and verify it is a valid server jar
+        run: |
+          url=$(curl -fsSL https://api.github.com/repos/CrucibleMC/Crucible/releases \
+            | grep -oE '"browser_download_url":[ ]*"[^"]*Crucible-1\.7\.10-[^"]*\.jar"' \
+            | grep -viE 'sources|javadoc' | head -1 | grep -oE 'https://[^"]*')
+          echo "Latest Crucible: $url"
+          curl -fsSL -o crucible.jar "$url"
+          java -version
+          unzip -p crucible.jar META-INF/MANIFEST.MF | grep -q 'Main-Class: cpw.mods.fml.relauncher.ServerLaunchWrapper' \
+            || { echo "::error::downloaded Crucible jar has no ServerLaunchWrapper Main-Class"; exit 1; }
+          echo "OK: latest Crucible is a valid server jar."
+
+  build-telegrambridge:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with: { distribution: temurin, java-version: '8' }
+      - name: Build TelegramBridge from source
+        run: |
+          curl -fsSL -o json-simple.jar \
+            https://repo1.maven.org/maven2/com/googlecode/json-simple/json-simple/1.1/json-simple-1.1.jar
+          url=$(curl -fsSL https://api.github.com/repos/CrucibleMC/Crucible/releases \
+            | grep -oE '"browser_download_url":[ ]*"[^"]*Crucible-1\.7\.10-[^"]*\.jar"' \
+            | grep -viE 'sources|javadoc' | head -1 | grep -oE 'https://[^"]*')
+          curl -fsSL -o crucible.jar "$url"
+          mkdir -p out
+          javac -encoding UTF-8 -cp "crucible.jar:json-simple.jar" -d out \
+            server-plugins/tgbridge-src/com/example/tgbridge/TelegramBridge.java
+          cp server-plugins/tgbridge-src/plugin.yml out/
+          (cd out && jar cf ../TelegramBridge-1.0.0.jar com plugin.yml)
+      - uses: actions/upload-artifact@v4
+        with: { name: TelegramBridge, path: TelegramBridge-1.0.0.jar }

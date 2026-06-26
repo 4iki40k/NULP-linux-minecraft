@@ -1,0 +1,34 @@
+# TelegramBridge config
+# 1. Create a bot via @BotFather in Telegram -> you get a bot-token.
+# 2. Add the bot to your group (or DM it), then get the chat-id:
+#    open https://api.telegram.org/bot<TOKEN>/getUpdates after sending a message,
+#    and read "chat":{"id": ...}.  Group ids are negative (e.g. -1001234567890).
+# 3. Fill both below and run /tg reload (or restart the server).
+bot-token: "PUT_YOUR_BOT_TOKEN_HERE"
+chat-id: "PUT_YOUR_CHAT_ID_HERE"
+
+# Announce server start/stop and player join/leave to Telegram.
+announce-join-leave: true
+announce-deaths: true
+announce-achievements: true
+# Tell a player their X Y Z when they die (so they can recover their stuff).
+death-coords: true
+
+# Telegram-side commands (anyone in the chat): /online (who's online), /tps (server TPS), /help.
+
+# Space-race milestones: announce the FIRST player to reach each new world (Galacticraft planet),
+# e.g. "🚀 Olegus3 is FIRST to reach the Moon!". The plugin logs every world name a player enters
+# ([milestone] ... entered world 'NAME') so you can see the real GC dim names and map friendly
+# titles below. Persisted to plugins/TelegramBridge/discovered.txt (delete it to reset the race).
+announce-space-milestones: true
+# Optional: map raw world names -> friendly titles (the plugin has built-in guesses for moon/mars/etc).
+# space-names:
+#   DIM-28: "the Moon"
+#   DIM-29: "Mars"
+
+# Message language: uk (default) or en.
+lang: uk
+
+# Address shown in the "server started" message (with port + CPU/cores/RAM + MC version).
+# Leave empty to auto-detect the public IP; set a domain to override (e.g. play.example.pp.ua).
+server-address: ""
