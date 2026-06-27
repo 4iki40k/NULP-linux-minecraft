@@ -2,7 +2,7 @@
 ### To setup and start server use server-setup.sh
 Requires wget and Java 8
 ``` bash
-wget https://raw.githubusercontent.com/4iki40k/Galaxy-1.7.10-minecraft/main/server-setup.sh
+wget https://raw.githubusercontent.com/4iki40k/Galaxy-1.7.10-minecraft/legacy-java-8/server-setup.sh
 ```
 ``` bash
 chmod +x server-setup.sh
